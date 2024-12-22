@@ -11,11 +11,11 @@ class PortofolioSeeder extends Seeder
     public function run()
     {
         Portofolio::create([
-            'title' => 'Project in Pakistan',
-            'location' => 'Kenya',
+            'title' => 'Project in China',
+            'location' => 'China',
             'date' => '2024-02-08',
             'image' => 'bersih.jpg',
-            'description' => 'Detailed description of the project in Kenya...',
+            'description' => 'Detailed description of the project in China...',
         ]);
 
         // Add more sample data here
